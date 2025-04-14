@@ -4,6 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jecky & Bonathan</title>
+    <meta name="title" content="Jecky & Bonathan" />
+    <meta
+      name="description"
+      content="Music and fun for kids of all ages! Join our live performances in Central MA."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.jeckyandbonathan.com/" />
+    <meta property="og:title" content="Jecky & Bonathan" />
+    <meta
+      property="og:description"
+      content="Music and fun for kids of all ages! Join our live performances in Central MA."
+    />
+    <meta
+      property="og:image"
+      content="https://www.jeckyandbonathan.com/og-image.jpg"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.jeckyandbonathan.com/" />
+    <meta property="twitter:title" content="Jecky & Bonathan" />
+    <meta
+      property="twitter:description"
+      content="Music and fun for kids of all ages! Join our live performances in Central MA."
+    />
+    <meta
+      property="twitter:image"
+      content="https://www.jeckyandbonathan.com/og-image.jpg"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Henny+Penny&display=swap"
       rel="stylesheet"
@@ -144,11 +175,15 @@
     <h2>What People Say</h2>
     <ul>
       <li>
-        <em >"Jecky and Bonathan bring upbeat folksy energy in a fun and
-        entertaining family show. The addition of the accordion is unique and
-        both musicians are skilled and enthusiastic performers."</em >
+        <em
+          >"Jecky and Bonathan bring upbeat folksy energy in a fun and
+          entertaining family show. The addition of the accordion is unique and
+          both musicians are skilled and enthusiastic performers."</em
+        >
       </li>
-      <p class="attribution_name">—Hadley Roberts, Youth Services Librarian, Berlin Public Library</p>
+      <p class="attribution_name">
+        —Hadley Roberts, Youth Services Librarian, Berlin Public Library
+      </p>
       <li>
         <em
           >"Jecky and Bonathan appeared in support of our theatrical production,
@@ -184,7 +219,7 @@
         form.addEventListener("submit", function (event) {
           event.preventDefault();
 
-          emailjs.sendForm("service_bwrow18","template_n5a5kkx", this).then(
+          emailjs.sendForm("service_bwrow18", "template_n5a5kkx", this).then(
             () => {
               form.reset();
               form.style.display = "none";
